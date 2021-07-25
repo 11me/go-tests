@@ -3,7 +3,7 @@ My journey of exploring [Go with tests](https://quii.gitbook.io/learn-go-with-te
 
 ## Fundamentals
 - [X] Iterations and benchmarking.
-- [ ] Arrays and slices.
+- [X] Arrays and slices.
 - [ ] Structs, methods and interfaces.
 - [ ] Pointers and errors.
 - [ ] Maps.
