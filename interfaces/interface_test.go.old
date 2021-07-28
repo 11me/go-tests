@@ -1,0 +1,35 @@
+package interfaces_test
+
+import (
+	"math"
+	"testing"
+
+	"github.com/11me/go-tests/interfaces"
+	"github.com/11me/go-tests/structs"
+)
+
+func TestArea(t *testing.T) {
+
+	checkArea := func(t testing.TB, s interfaces.Shape, want float64) {
+
+		t.Helper()
+		got := s.Area()
+
+		if got != want {
+			t.Errorf("got %.2f, but want %.2f", got, want)
+		}
+
+	}
+
+	t.Run("rectangle", func(t *testing.T) {
+		rect := structs.Rectangle{10.0, 10.0}
+		checkArea(t, rect, 100)
+	})
+
+	t.Run("circle", func(t *testing.T) {
+		circle := structs.Circle{10.0}
+		want := math.Pi * 10.0 * 10.0
+		checkArea(t, circle, want)
+	})
+
+}
