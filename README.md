@@ -5,7 +5,7 @@ My journey of exploring [Go with tests](https://quii.gitbook.io/learn-go-with-te
 - [X] Iterations and benchmarking.
 - [X] Arrays and slices.
 - [X] Structs, methods and interfaces.
-- [ ] Pointers and errors.
+- [X] Pointers and errors.
 - [ ] Maps.
 - [ ] Dependency injection.
 - [ ] Mocking.
