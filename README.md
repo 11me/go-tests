@@ -8,7 +8,7 @@ My journey of exploring [Go with tests](https://quii.gitbook.io/learn-go-with-te
 - [X] Pointers and errors.
 - [X] Maps.
 - [X] Dependency injection.
-- [ ] Mocking.
+- [X] Mocking.
 - [ ] Concurrency.
 - [ ] Select.
 - [ ] Reflection.
