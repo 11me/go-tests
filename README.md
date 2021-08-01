@@ -9,7 +9,7 @@ My journey of exploring [Go with tests](https://quii.gitbook.io/learn-go-with-te
 - [X] Maps.
 - [X] Dependency injection.
 - [X] Mocking.
-- [ ] Concurrency.
+- [X] Concurrency.
 - [ ] Select.
 - [ ] Reflection.
 - [ ] Sync.
