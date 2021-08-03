@@ -12,5 +12,5 @@ My journey of exploring [Go with tests](https://quii.gitbook.io/learn-go-with-te
 - [X] Concurrency.
 - [X] Select.
 - [X] Reflection.
-- [ ] Sync.
+- [X] Sync.
 - [ ] Context.
